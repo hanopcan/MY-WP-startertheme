@@ -1,0 +1,19 @@
+{
+	"browserSyncOptions": {
+		"proxy": "https://itic.local",
+		"notify": false
+	},
+	"browserSyncWatchFiles": ["./assets/css/*.min.css", "./assets/js/*.min.js", "./**/*.php"],
+	"paths": {
+		"js": "./assets/js",
+		"css": "./assets/css",
+		"img": "./img",
+		"imgsrc": "./src/img",
+		"sass": "./assets/sass",
+		"node": "./node_modules/",
+		"bower": "./bower_components/",
+		"dist": "./dist",
+		"distprod": "./dist-product",
+		"vendor": ""
+	}
+}
